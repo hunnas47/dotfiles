@@ -18,6 +18,7 @@ bspc config gapless_monocle true
 
 bspc rule -a Zathura state=tiled
 
+picom &
 dunst &
 unclutter&
 xsetroot -cursor_name left_ptr &
