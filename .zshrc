@@ -39,7 +39,7 @@ alias ls="exa"
 alias ll="exa -l"
 alias lf="lfub"
 alias zt="zathura"
-alias sxiv="sxiv -b -p"
+alias sxiv="nsxiv -b -p"
 alias vim="nvim"
 
 ## Plugins
