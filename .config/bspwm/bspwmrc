@@ -3,8 +3,8 @@
 pgrep -x sxhkd >/dev/null || sxhkd &
 bspc monitor  -d 1 2 3 4 5 6 7 8 &
 xidlehook --not-when-audio --not-when-fullscreen --timer 1800 'systemctl suspend' '' &
-pgrep bspswallow || bspswallow &
-$HOME/.config/polybar/launch.sh
+pgrep bspswallow || "$HOME"/.local/bin/bspswallow &
+"$HOME"/.config/polybar/launch.sh
 
 
 bspc config window_gap 10
