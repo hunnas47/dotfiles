@@ -41,6 +41,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 
+" Latex Plugin
+Plug 'lervag/vimtex'
+
 " Autocompletion
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
