@@ -154,8 +154,7 @@ XF86AudioMute
 	changevolume mute
 
 XF86AudioPlay
-	playerctl  play-pause
-	#playerctl --ignore-player=chromium play-pause
+	playerctl --ignore-player=chromium play-pause
 
 # brightness keys
 XF86MonBrightnessUp
