@@ -1,3 +1,4 @@
 .config/nvim/undodir/*
 .config/nvim/plugged/*
 .config/git/*
+.config/newsboat/urls
