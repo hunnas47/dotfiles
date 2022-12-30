@@ -1,4 +1,6 @@
 #auto-reload yes
+external-url-viewer "urlscan -dc -r 'linkhandler {}'"
+
 ## LISTING
 color listnormal cyan default
 color listfocus black yellow standout bold
@@ -7,12 +9,26 @@ color listfocus_unread yellow default bold
 color info red black bold
 color article white default bold
 
+#Keybindings
+bind-key j down
+bind-key k up
+bind-key j next articlelist
+bind-key k prev articlelist
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key G end
+bind-key g home
+bind-key d pagedown
+bind-key u pageup
+bind-key l open
+bind-key h quit
+bind-key U show-urls
 
-browser "chromium %u"
-macro y set browser "mpv %u" ; open-in-browser ; set browser "chromium %u"
-macro d set browser "wget %u" ; open-in-browser ; set browser "chromium %u"
-macro w set browser "lynx" ; open-in-browser ; set browser "chromium %u"
-macro c set browser "echo %u | xclip -r -sel c" ; open-in-browser ; set browser "chromium %u"
+#browser "chromium %u"
+#macro y set browser "mpv %u" ; open-in-browser ; set browser "chromium %u"
+#macro d set browser "wget %u" ; open-in-browser ; set browser "chromium %u"
+#macro w set browser "lynx" ; open-in-browser ; set browser "chromium %u"
+#macro c set browser "echo %u | xclip -r -sel c" ; open-in-browser ; set browser "chromium %u"
 
 ## ColorScheme
 
@@ -29,3 +45,4 @@ highlight article ":.*\\(link\\)$" cyan default
 highlight article ":.*\\(image\\)$" blue default
 highlight article ":.*\\(embedded flash\\)$" magenta default
 
+browser linkhandler
