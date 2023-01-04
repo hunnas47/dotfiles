@@ -2,3 +2,4 @@
 .config/nvim/plugged/*
 .config/git/*
 .config/newsboat/urls
+.config/redshift

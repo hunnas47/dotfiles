@@ -18,6 +18,8 @@ zstyle ':completion::complete:*' gain-privileges 1
 
 # default apps
 export EDITOR="nvim"
+export BROWSER="chromium"
+export TERMINAL="alacritty"
 
 
 ##Environment Variables
