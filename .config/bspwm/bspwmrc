@@ -21,7 +21,6 @@ bspc rule -a Zathura state=tiled
 picom &
 dunst &
 unclutter&
-redshift &
 xsetroot -cursor_name left_ptr &
 nitrogen --set-zoom-fill ~/Pictures/Wallpapers/nightstreet.jpg &
 clipmenud&

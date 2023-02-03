@@ -25,7 +25,9 @@ super + v
 super + B
     $HOME/.local/bin/book
 
-# Yt-cli
+# Pavucontrol
+alt + p
+    pavucontrol
 
 super + P
     $HOME/.local/bin/ytcli
@@ -190,6 +192,9 @@ alt + f
 
 alt + o
 	obsidian
+
+alt + k
+	okular
 
 alt + v
  code
