@@ -25,6 +25,7 @@
  " Key Bindings
 let mapleader = "'"
 nnoremap <leader>f :Telescope find_files<CR>
+nnoremap <leader>e :NvimTreeToggle<CR>
 
 
 
@@ -53,6 +54,10 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'onsails/lspkind-nvim'
+
+"nvim-tree (file-explorer)
+Plug 'nvim-tree/nvim-tree.lua'
+Plug 'nvim-tree/nvim-web-devicons'
 
 call plug#end()
 
