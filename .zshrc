@@ -8,7 +8,7 @@ export HSTR_CONFIG=hicolor
 export PATH="$PATH:/home/hunnas/.local/bin"
 
 setopt autocd
-bindkey -e
+bindkey -v
 zstyle :compinstall filename '$HOME/.zshrc'
 set -o vi
 ## Auto completion
@@ -41,7 +41,6 @@ alias ls="exa"
 alias ll="exa -l"
 alias lf="lfub"
 alias zt="zathura"
-alias sxiv="nsxiv -b -p"
 alias vim="nvim"
 
 ## Plugins
