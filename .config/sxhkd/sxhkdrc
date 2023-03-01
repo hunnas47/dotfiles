@@ -30,7 +30,7 @@ alt + p
     pavucontrol
 
 super + P
-    $HOME/.local/bin/ytcli
+    $HOME/.local/bin/ytchill
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -193,7 +193,7 @@ alt + f
 alt + o
 	obsidian
 
-alt + k
+alt + u
 	okular
 
 alt + v
