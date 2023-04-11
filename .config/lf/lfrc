@@ -34,6 +34,11 @@ cmd dragon ${{
 	dragon-drop -x "$f"
 	}}
 
+## Shred files
+cmd shred ${{
+    shred -zu "$f"
+}}
+
 ## Open with vim
 cmd open ${{
     case $(file --mime-type "$f" -bL) in
@@ -46,6 +51,7 @@ cmd open ${{
 map au unarchive
 map R reload
 map DD delete
+map XX shred
 map bg setwallpaper
 map og dragon
 ## Movement
