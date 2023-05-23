@@ -39,6 +39,10 @@ cmd shred ${{
     shred -zu "$f"
 }}
 
+cmd clip ${{
+    cat "$f" | xclip -sel c
+}}
+
 ## Open with vim
 cmd open ${{
     case $(file --mime-type "$f" -bL) in
@@ -54,6 +58,9 @@ map DD delete
 map XX shred
 map bg setwallpaper
 map og dragon
+map bf mkdir
+map ov open
+map CC clip
 ## Movement
 
 map gc cd ~/Documents
