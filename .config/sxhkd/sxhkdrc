@@ -25,6 +25,9 @@ super + v
 super + B
     $HOME/.local/bin/book
 
+super + R
+    $HOME/.local/bin/qrshare
+
 # Pavucontrol
 alt + p
     pavucontrol
