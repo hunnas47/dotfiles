@@ -18,7 +18,7 @@ zstyle ':completion::complete:*' gain-privileges 1
 
 # default apps
 export EDITOR="nvim"
-export BROWSER="chromium"
+export BROWSER="firefox"
 export TERMINAL="alacritty"
 
 
@@ -37,11 +37,12 @@ alias down="sudo pacman -S"
 alias tproc='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem'
 alias vivo="cd /run/user/1000/gvfs/mtp:host=vivo_vivo_1906_dae06ae6"
 alias hh="hstr" 
-alias ls="exa"
-alias ll="exa -l"
+alias ls="eza"
+alias ll="eza -l"
 alias lf="lfub"
 alias zt="zathura"
 alias vim="nvim"
+alias py="python"
 
 ## Plugins
 source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -56,7 +57,7 @@ eval "$(starship init zsh)"
 #
 ## Todo
 declare -A pomo_options
-pomo_options["work"]="25"
+pomo_options["work"]="60"
 pomo_options["break"]="10"
 
 pomodoro () {
@@ -70,3 +71,4 @@ pomodoro () {
 
 alias wo="pomodoro 'work'"
 alias br="pomodoro 'break'"
+

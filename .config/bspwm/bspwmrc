@@ -22,5 +22,5 @@ picom &
 dunst &
 unclutter&
 xsetroot -cursor_name left_ptr &
-nitrogen --set-zoom-fill ~/Pictures/Wallpapers/nightstreet.jpg &
+nitrogen --set-zoom-fill ~/Pictures/Wallpapers/wall.png &
 clipmenud&
